@@ -1,0 +1,96 @@
+.detail {
+    /* flex: 1; */
+    width: var(--width-detail);
+    height: 100%;
+}
+
+.detail-1 {
+    height: 380px;
+}
+
+.box > h2 {
+    text-align: center;
+    color: #ccc;
+    padding-top: 100px;
+
+}
+
+.detail-2 {
+    height: 340px;
+}
+
+.detail-2 p {
+    padding: 10px;
+    text-align: justify;
+    overflow: auto;
+}
+
+.detail-2 p::-webkit-scrollbar {
+    width: 0px;
+}
+
+.detail-2 p::-webkit-scrollbar-track {
+    background-color: rgb(177, 165, 165);
+    border-radius: 20px;
+}
+
+.detail-2 p::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(44, 43, 43, 0.3);
+}
+
+/* Chart option */
+.chart__option {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    display: flex;
+    width: 100%;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+
+.chart__option--timingChain,
+.chart__option--typeData {
+    position: relative;
+    cursor: pointer;
+}
+
+.chart__option--typeData span.pm2_5 {
+    color: #f3a360;
+}
+
+.chart__option--typeData span.temperature {
+    color: #ff4500;
+}
+
+.chart__option--typeData span.humidity {
+    color: #00fa9a;
+}
+
+.chart__option--typeData ul {
+    position: absolute;
+    top: -52px;
+    left: -10px;
+    text-align: left;
+    padding: 4px 10px;
+    background-color: #444;
+    border-radius: 10px;
+    box-shadow: 0 0 4px #aaa;
+    transition-duration: 0.2s;
+}
+
+.chart__option--typeData ul li {
+    opacity: 0.8;
+}
+.chart__option--typeData ul li:hover {
+    opacity: 1;
+}
+
+.chart__option--timingChain span.timingChain-month {
+    color: rgb(255, 0, 242);
+}
+
+.chart__option--timingChain span.timingChain-date {
+    color: rgb(200, 255, 0);
+}

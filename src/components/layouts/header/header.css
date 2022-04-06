@@ -1,0 +1,46 @@
+header {
+    width: 100%;
+    min-height: var(--height-header);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-component);
+    padding: 10px 12px;
+    box-shadow: 0 0 8px #333;
+}
+
+header h1 a {
+    color: whitesmoke;
+}
+
+.logo-icon {
+    font-size: 30px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul li a {
+    color: whitesmoke;
+    margin: 0 16px;
+}
+
+.bars-icon {
+    color: whitesmoke;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .bars-icon {
+        display: block;
+    }
+}

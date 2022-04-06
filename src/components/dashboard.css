@@ -1,0 +1,31 @@
+.bg-component {
+    background-color: var(--bg-component);
+}
+
+.border-component {
+    border: 1px solid #aaa;
+}
+
+.dashboard {
+    display: flex;
+    min-height: calc(100vh - var(--height-header) - 20px);
+    flex: 1;
+}
+
+.flex-item {
+    height: 100%;
+    padding: 0 10px;
+}
+
+.box {
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 8px #333;
+    /* border: 1px solid #aaa; */
+    position: relative;
+}
+
+.box h4 {
+    padding: 8px 0;
+}

@@ -1,0 +1,996 @@
+{
+  "areas": [
+    {
+      "id": 1,
+      "name": "Quận 1",
+      "coordinate": {
+        "latitude": 10.775659,
+        "longitude": 106.700424
+      },
+      "averageData": {
+        "pm2_5": 23,
+        "temperature": 15,
+        "humidity": 81
+      },
+      "currentData": {
+        "pm2_5": 21,
+        "temperature": 25,
+        "humidity": 83,
+        "isRain": false
+      }
+    },
+    {
+      "id": 2,
+      "name": "Quận 2",
+      "coordinate": {
+        "latitude": 10.762470,
+        "longitude": 106.642372
+      },
+      "averageData": {
+        "pm2_5": 20,
+        "temperature": 25,
+        "humidity": 79
+      },
+      "currentData": {
+        "pm2_5": 24,
+        "temperature": 20,
+        "humidity": 89,
+        "isRain": false
+      }
+    },
+    {
+      "id": 3,
+      "name": "Quận 4",
+      "coordinate": {
+        "latitude": 10.780980,
+        "longitude": 106.649712
+      },
+      "averageData": {
+        "pm2_5": 14,
+        "temperature": 22,
+        "humidity": 83
+      },
+      "currentData": {
+        "pm2_5": 18,
+        "temperature": 30,
+        "humidity": 81,
+        "isRain": false
+      }
+    },
+    {
+      "id": 4,
+      "name": "Quận 5",
+      "coordinate": {
+        "latitude": 10.772840,
+        "longitude": 106.647324
+      },
+      "averageData": {
+        "pm2_5": 16,
+        "temperature": 20,
+        "humidity": 80
+      },
+      "currentData": {
+        "pm2_5": 20,
+        "temperature": 22,
+        "humidity": 80,
+        "isRain": false
+      }
+    },
+    {
+      "id": 5,
+      "name": "Quận Tân Bình",
+      "coordinate": {
+        "latitude": 10.797340,
+        "longitude": 106.657928
+      },
+      "averageData": {
+        "pm2_5": 18,
+        "temperature": 20,
+        "humidity": 78
+      },
+      "currentData": {
+        "pm2_5": 18,
+        "temperature": 18,
+        "humidity": 84,
+        "isRain": false
+      }
+    },
+    {
+      "id": 6,
+      "name": "Quận 9",
+      "coordinate": {
+        "latitude": 10.8223189,
+        "longitude": 106.7419418
+      },
+      "averageData": {
+        "pm2_5": 12,
+        "temperature": 30,
+        "humidity": 79
+      },
+      "currentData": {
+        "pm2_5": 16,
+        "temperature": 27,
+        "humidity": 78,
+        "isRain": false
+      }
+    },
+    {
+      "id": 7,
+      "name": "Quận 10",
+      "coordinate": {
+        "latitude": 10.7727389,
+        "longitude": 106.6606517
+      },
+      "averageData": {
+        "pm2_5": 18,
+        "temperature": 25,
+        "humidity": 80
+      },
+      "currentData": {
+        "pm2_5": 17,
+        "temperature": 18,
+        "humidity": 80,
+        "isRain": false
+      }
+    },
+    {
+      "id": 8,
+      "name": "Quận 12",
+      "coordinate": {
+        "latitude": 10.8614818,
+        "longitude": 106.6255926
+      },
+      "averageData": {
+        "pm2_5": 13,
+        "temperature": 28,
+        "humidity": 78
+      },
+      "currentData": {
+        "pm2_5": 10,
+        "temperature": 20,
+        "humidity": 81,
+        "isRain": false
+      }
+    },
+    {
+      "id": 9,
+      "name": "Thành phố Thủ Đức",
+      "coordinate": {
+        "latitude": 10.8546928,
+        "longitude": 106.7180592
+      },
+      "averageData": {
+        "pm2_5": 20,
+        "temperature": 10,
+        "humidity": 80
+      },
+      "currentData": {
+        "pm2_5": 18,
+        "temperature": 18,
+        "humidity": 80,
+        "isRain": false
+      }
+    },
+    {
+      "id": 10,
+      "name": "Quận Bình Thạnh",
+      "coordinate": {
+        "latitude": 10.8121771,
+        "longitude": 106.7001169
+      },
+      "averageData": {
+        "pm2_5": 17,
+        "temperature": 26,
+        "humidity": 82
+      },
+      "currentData": {
+        "pm2_5": 16,
+        "temperature": 26,
+        "humidity": 82,
+        "isRain": false
+      }
+    }
+  ],
+  "dataset": [
+    {
+      "id": 1,
+      "areaId": 1,
+      "areaName": "Quận 1",
+      "coordinate": {
+        "latitude": 10.775659,
+        "longitude": 106.700424
+      },
+      "data": {
+        "pm2_5": 12,
+        "temperature": 25,
+        "isRain": true,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 01:36"
+    },
+    {
+      "id": 2,
+      "areaId": 2,
+      "areaName": "Quận 2",
+      "coordinate": {
+        "latitude": 10.762470,
+        "longitude": 106.642372
+      },
+      "data": {
+        "pm2_5": 23,
+        "temperature": 15,
+        "isRain": false,
+        "humidity": 81
+      },
+      "createdAt": "2022-03-17 01:35"
+    },
+    {
+      "id": 3,
+      "areaId": 3,
+      "areaName": "Quận 4",
+      "coordinate": {
+        "latitude": 10.780980,
+        "longitude": 106.649712
+      },
+      "data": {
+        "pm2_5": 14,
+        "temperature": 20,
+        "isRain": false,
+        "humidity": 83
+      },
+      "createdAt": "2022-03-17 01:35"
+    },
+    {
+      "id": 4,
+      "areaId": 4,
+      "areaName": "Quận 5",
+      "coordinate": {
+        "latitude": 10.772840,
+        "longitude": 106.647324
+      },
+      "data": {
+        "pm2_5": 17,
+        "temperature": 27,
+        "isRain": false,
+        "humidity": 80
+      },
+      "createdAt": "2022-03-17 01:35"
+    },
+    {
+      "id": 5,
+      "areaId": 5,
+      "areaName": "Quận Tân Bình",
+      "coordinate": {
+        "latitude": 10.797340,
+        "longitude": 106.657928
+      },
+      "data": {
+        "pm2_5": 20,
+        "temperature": 26,
+        "isRain": true,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 01:34"
+    },
+    {
+      "id": 6,
+      "areaId": 6,
+      "areaName": "Quận 9",
+      "coordinate": {
+        "latitude": 10.8223189,
+        "longitude": 106.7419418
+      },
+      "data": {
+        "pm2_5": 12,
+        "temperature": 25,
+        "isRain": false,
+        "humidity": 79
+      },
+      "createdAt": "2022-03-17 01:33"
+    },
+    {
+      "id": 7,
+      "areaId": 7,
+      "areaName": "Quận 10",
+      "coordinate": {
+        "latitude": 10.7727389,
+        "longitude": 106.6606517
+      },
+      "data": {
+        "pm2_5": 18,
+        "temperature": 22,
+        "isRain": false,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 01:33"
+    },
+    {
+      "id": 8,
+      "areaId": 8,
+      "areaName": "Quận 12",
+      "coordinate": {
+        "latitude": 10.8614818,
+        "longitude": 106.6255926
+      },
+      "data": {
+        "pm2_5": 16,
+        "temperature": 25,
+        "isRain": false,
+        "humidity": 78
+      },
+      "createdAt": "2022-03-17 01:33"
+    },
+    {
+      "id": 9,
+      "areaId": 9,
+      "areaName": "Thành phố Thủ Đức",
+      "coordinate": {
+        "latitude": 10.8546928,
+        "longitude": 106.7180592
+      },
+      "data": {
+        "pm2_5": 16,
+        "temperature": 28,
+        "isRain": false,
+        "humidity": 80
+      },
+      "createdAt": "2022-03-17 01:33"
+    },
+    {
+      "id": 10,
+      "areaId": 10,
+      "areaName": "Quận Bình Thạnh",
+      "coordinate": {
+        "latitude": 10.8121771,
+        "longitude": 106.7001169
+      },
+      "data": {
+        "pm2_5": 12,
+        "temperature": 25,
+        "isRain": false,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 01:32"
+    },
+    {
+      "id": 11,
+      "areaId": 1,
+      "areaName": "Quận 1",
+      "coordinate": {
+        "latitude": 10.775659,
+        "longitude": 106.700424
+      },
+      "data": {
+        "pm2_5": 10,
+        "temperature": 20,
+        "isRain": false,
+        "humidity": 83
+      },
+      "createdAt": "2022-03-17 01:21"
+    },
+    {
+      "id": 12,
+      "areaId": 2,
+      "areaName": "Quận 2",
+      "coordinate": {
+        "latitude": 10.762470,
+        "longitude": 106.642372
+      },
+      "data": {
+        "pm2_5": 12,
+        "temperature": 25,
+        "isRain": 1,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 01:21"
+    },
+    {
+      "id": 13,
+      "areaId": 3,
+      "areaName": "Quận 4",
+      "coordinate": {
+        "latitude": 10.780980,
+        "longitude": 106.649712
+      },
+      "data": {
+        "pm2_5": 20,
+        "temperature": 40,
+        "isRain": false,
+        "humidity": 77
+      },
+      "createdAt": "2022-03-17 01:20"
+    },
+    {
+      "id": 14,
+      "areaId": 4,
+      "areaName": "Quận 5",
+      "coordinate": {
+        "latitude": 10.772840,
+        "longitude": 106.647324
+      },
+      "data": {
+        "pm2_5": 18,
+        "temperature": 26,
+        "isRain": false,
+        "humidity": 79
+      },
+      "createdAt": "2022-03-17 01:20"
+    },
+    {
+      "id": 15,
+      "areaId": 5,
+      "areaName": "Quận Tân Bình",
+      "coordinate": {
+        "latitude": 10.797340,
+        "longitude": 106.657928
+      },
+      "data": {
+        "pm2_5": 22,
+        "temperature": 30,
+        "isRain": false,
+        "humidity": 78
+      },
+      "createdAt": "2022-03-17 01:20"
+    },
+    {
+      "id": 16,
+      "areaId": 6,
+      "areaName": "Quận 9",
+      "coordinate": {
+        "latitude": 10.8223189,
+        "longitude": 106.7419418
+      },
+      "data": {
+        "pm2_5": 17,
+        "temperature": 24,
+        "isRain": false,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 01:19"
+    },
+    {
+      "id": 17,
+      "areaId": 7,
+      "areaName": "Quận 10",
+      "coordinate": {
+        "latitude": 10.7727389,
+        "longitude": 106.6606517
+      },
+      "data": {
+        "pm2_5": 19,
+        "temperature": 25,
+        "isRain": false,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 01:18"
+    },
+    {
+      "id": 18,
+      "areaId": 8,
+      "areaName": "Quận 12",
+      "coordinate": {
+        "latitude": 10.8614818,
+        "longitude": 106.6255926
+      },
+      "data": {
+        "pm2_5": 19,
+        "temperature": 29,
+        "isRain": false,
+        "humidity": 80
+      },
+      "createdAt": "2022-03-17 01:18"
+    },
+    {
+      "id": 19,
+      "areaId": 9,
+      "areaName": "Thành phố Thủ Đức",
+      "coordinate": {
+        "latitude": 10.8546928,
+        "longitude": 106.7180592
+      },
+      "data": {
+        "pm2_5": 22,
+        "temperature": 35,
+        "isRain": false,
+        "humidity": 81
+      },
+      "createdAt": "2022-03-17 01:17"
+    },
+    {
+      "id": 20,
+      "areaId": 10,
+      "areaName": "Quận Bình Thạnh",
+      "coordinate": {
+        "latitude": 10.8121771,
+        "longitude": 106.7001169
+      },
+      "data": {
+        "pm2_5": 20,
+        "temperature": 25,
+        "isRain": false,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 01:17"
+    },
+    {
+      "id": 21,
+      "areaId": 1,
+      "areaName": "Quận 1",
+      "coordinate": {
+        "latitude": 10.775659,
+        "longitude": 106.700424
+      },
+      "data": {
+        "pm2_5": 15,
+        "temperature": 23,
+        "isRain": false,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 01:06"
+    },
+    {
+      "id": 22,
+      "areaId": 2,
+      "areaName": "Quận 2",
+      "coordinate": {
+        "latitude": 10.762470,
+        "longitude": 106.642372
+      },
+      "data": {
+        "pm2_5": 12,
+        "temperature": 24,
+        "isRain": false,
+        "humidity": 80
+      },
+      "createdAt": "2022-03-17 01:06"
+    },
+    {
+      "id": 23,
+      "areaId": 3,
+      "areaName": "Quận 4",
+      "coordinate": {
+        "latitude": 10.780980,
+        "longitude": 106.649712
+      },
+      "data": {
+        "pm2_5": 21,
+        "temperature": 28,
+        "isRain": false,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 01:06"
+    },
+    {
+      "id": 24,
+      "areaId": 4,
+      "areaName": "Quận 5",
+      "coordinate": {
+        "latitude": 10.772840,
+        "longitude": 106.647324
+      },
+      "data": {
+        "pm2_5": 19,
+        "temperature": 25,
+        "isRain": false,
+        "humidity": 79
+      },
+      "createdAt": "2022-03-17 01:05"
+    },
+    {
+      "id": 25,
+      "areaId": 5,
+      "areaName": "Quận Tân Bình",
+      "coordinate": {
+        "latitude": 10.797340,
+        "longitude": 106.657928
+      },
+      "data": {
+        "pm2_5": 18,
+        "temperature": 27,
+        "isRain": false,
+        "humidity": 79
+      },
+      "createdAt": "2022-03-17 01:05"
+    },
+    {
+      "id": 26,
+      "areaId": 6,
+      "areaName": "Quận 9",
+      "coordinate": {
+        "latitude": 10.8223189,
+        "longitude": 106.7419418
+      },
+      "data": {
+        "pm2_5": 12,
+        "temperature": 25,
+        "isRain": false,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 01:05"
+    },
+    {
+      "id": 27,
+      "areaId": 7,
+      "areaName": "Quận 10",
+      "coordinate": {
+        "latitude": 10.7727389,
+        "longitude": 106.6606517
+      },
+      "data": {
+        "pm2_5": 18,
+        "temperature": 26,
+        "isRain": false,
+        "humidity": 81
+      },
+      "createdAt": "2022-03-17 01:04"
+    },
+    {
+      "id": 28,
+      "areaId": 8,
+      "areaName": "Quận 12",
+      "coordinate": {
+        "latitude": 10.8614818,
+        "longitude": 106.6255926
+      },
+      "data": {
+        "pm2_5": 17,
+        "temperature": 23,
+        "isRain": false,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 01:04"
+    },
+    {
+      "id": 29,
+      "areaId": 9,
+      "areaName": "Thành phố Thủ Đức",
+      "coordinate": {
+        "latitude": 10.8546928,
+        "longitude": 106.7180592
+      },
+      "data": {
+        "pm2_5": 12,
+        "temperature": 20,
+        "isRain": false,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 01:03"
+    },
+    {
+      "id": 30,
+      "areaId": 10,
+      "areaName": "Quận Bình Thạnh",
+      "coordinate": {
+        "latitude": 10.8121771,
+        "longitude": 106.7001169
+      },
+      "data": {
+        "pm2_5": 16,
+        "temperature": 25,
+        "isRain": false,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 01:02"
+    },
+    {
+      "id": 31,
+      "areaId": 1,
+      "areaName": "Quận 1",
+      "coordinate": {
+        "latitude": 10.775659,
+        "longitude": 106.700424
+      },
+      "data": {
+        "pm2_5": 19,
+        "temperature": 25,
+        "isRain": false,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 00:47"
+    },
+    {
+      "id": 32,
+      "areaId": 2,
+      "areaName": "Quận 2",
+      "coordinate": {
+        "latitude": 10.762470,
+        "longitude": 106.642372
+      },
+      "data": {
+        "pm2_5": 14,
+        "temperature": 24,
+        "isRain": false,
+        "humidity": 78
+      },
+      "createdAt": "2022-03-17 00:47"
+    },
+    {
+      "id": 33,
+      "areaId": 3,
+      "areaName": "Quận 4",
+      "coordinate": {
+        "latitude": 10.780980,
+        "longitude": 106.649712
+      },
+      "data": {
+        "pm2_5": 19,
+        "temperature": 15,
+        "isRain": false,
+        "humidity": 81
+      },
+      "createdAt": "2022-03-17 00:46"
+    },
+    {
+      "id": 34,
+      "areaId": 4,
+      "areaName": "Quận 5",
+      "coordinate": {
+        "latitude": 10.772840,
+        "longitude": 106.647324
+      },
+      "data": {
+        "pm2_5": 20,
+        "temperature": 23,
+        "isRain": false,
+        "humidity": 79
+      },
+      "createdAt": "2022-03-17 00:46"
+    },
+    {
+      "id": 35,
+      "areaId": 5,
+      "areaName": "Quận Tân Bình",
+      "coordinate": {
+        "latitude": 10.797340,
+        "longitude": 106.657928
+      },
+      "data": {
+        "pm2_5": 13,
+        "temperature": 35,
+        "isRain": false,
+        "humidity": 77
+      },
+      "createdAt": "2022-03-17 00:46"
+    },
+    {
+      "id": 36,
+      "areaId": 6,
+      "areaName": "Quận 9",
+      "coordinate": {
+        "latitude": 10.8223189,
+        "longitude": 106.7419418
+      },
+      "data": {
+        "pm2_5": 16,
+        "temperature": 26,
+        "isRain": false,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 00:45"
+    },
+    {
+      "id": 37,
+      "areaId": 7,
+      "areaName": "Quận 10",
+      "coordinate": {
+        "latitude": 10.7727389,
+        "longitude": 106.6606517
+      },
+      "data": {
+        "pm2_5": 17,
+        "temperature": 27,
+        "isRain": false,
+        "humidity": 87
+      },
+      "createdAt": "2022-03-17 00:44"
+    },
+    {
+      "id": 38,
+      "areaId": 8,
+      "areaName": "Quận 12",
+      "coordinate": {
+        "latitude": 10.8614818,
+        "longitude": 106.6255926
+      },
+      "data": {
+        "pm2_5": 15,
+        "temperature": 20,
+        "isRain": false,
+        "humidity": 86
+      },
+      "createdAt": "2022-03-17 00:44"
+    },
+    {
+      "id": 39,
+      "areaId": 9,
+      "areaName": "Thành phố Thủ Đức",
+      "coordinate": {
+        "latitude": 10.8546928,
+        "longitude": 106.7180592
+      },
+      "data": {
+        "pm2_5": 19,
+        "temperature": 25,
+        "isRain": false,
+        "humidity": 85
+      },
+      "createdAt": "2022-03-17 00:44"
+    },
+    {
+      "id": 40,
+      "areaId": 10,
+      "areaName": "Quận Bình Thạnh",
+      "coordinate": {
+        "latitude": 10.8121771,
+        "longitude": 106.7001169
+      },
+      "data": {
+        "pm2_5": 13,
+        "temperature": 21,
+        "isRain": false,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 00:43"
+    },
+    {
+      "id": 41,
+      "areaId": 1,
+      "areaName": "Quận 1",
+      "coordinate": {
+        "latitude": 10.775659,
+        "longitude": 106.700424
+      },
+      "data": {
+        "pm2_5": 19,
+        "temperature": 29,
+        "isRain": false,
+        "humidity": 83
+      },
+      "createdAt": "2022-03-17 00:32"
+    },
+    {
+      "id": 42,
+      "areaId": 2,
+      "areaName": "Quận 2",
+      "coordinate": {
+        "latitude": 10.762470,
+        "longitude": 106.642372
+      },
+      "data": {
+        "pm2_5": 12,
+        "temperature": 22,
+        "isRain": false,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 00:32"
+    },
+    {
+      "id": 43,
+      "areaId": 3,
+      "areaName": "Quận 4",
+      "coordinate": {
+        "latitude": 10.780980,
+        "longitude": 106.649712
+      },
+      "data": {
+        "pm2_5": 14,
+        "temperature": 25,
+        "isRain": false,
+        "humidity": 80
+      },
+      "createdAt": "2022-03-17 00:31"
+    },
+    {
+      "id": 44,
+      "areaId": 4,
+      "areaName": "Quận 5",
+      "coordinate": {
+        "latitude": 10.772840,
+        "longitude": 106.647324
+      },
+      "data": {
+        "pm2_5": 19,
+        "temperature": 33,
+        "isRain": false,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 00:31"
+    },
+    {
+      "id": 45,
+      "areaId": 5,
+      "areaName": "Quận Tân Bình",
+      "coordinate": {
+        "latitude": 10.797340,
+        "longitude": 106.657928
+      },
+      "data": {
+        "pm2_5": 15,
+        "temperature": 25,
+        "isRain": false,
+        "humidity": 85
+      },
+      "createdAt": "2022-03-17 00:31"
+    },
+    {
+      "id": 46,
+      "areaId": 6,
+      "areaName": "Quận 9",
+      "coordinate": {
+        "latitude": 10.8223189,
+        "longitude": 106.7419418
+      },
+      "data": {
+        "pm2_5": 14,
+        "temperature": 26,
+        "isRain": false,
+        "humidity": 86
+      },
+      "createdAt": "2022-03-17 00:30"
+    },
+    {
+      "id": 47,
+      "areaId": 7,
+      "areaName": "Quận 10",
+      "coordinate": {
+        "latitude": 10.7727389,
+        "longitude": 106.6606517
+      },
+      "data": {
+        "pm2_5": 20,
+        "temperature": 22,
+        "isRain": false,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 00:30"
+    },
+    {
+      "id":48,
+      "areaId": 8,
+      "areaName": "Quận 12",
+      "coordinate": {
+        "latitude": 10.8614818,
+        "longitude": 106.6255926
+      },
+      "data": {
+        "pm2_5": 16,
+        "temperature": 36,
+        "isRain": false,
+        "humidity": 70
+      },
+      "createdAt": "2022-03-17 00:29"
+    },
+    {
+      "id": 49,
+      "areaId": 9,
+      "areaName": "Thành phố Thủ Đức",
+      "coordinate": {
+        "latitude": 10.8546928,
+        "longitude": 106.7180592
+      },
+      "data": {
+        "pm2_5": 19,
+        "temperature": 25,
+        "isRain": false,
+        "humidity": 82
+      },
+      "createdAt": "2022-03-17 00:29"
+    },
+    {
+      "id": 50,
+      "areaId": 10,
+      "areaName": "Quận Bình Thạnh",
+      "coordinate": {
+        "latitude": 10.8121771,
+        "longitude": 106.7001169
+      },
+      "data": {
+        "pm2_5": 12,
+        "temperature": 20,
+        "isRain": false,
+        "humidity": 81
+      },
+      "createdAt": "2022-03-17 00:29"
+    }
+  ]
+}
